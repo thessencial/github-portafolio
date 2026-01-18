@@ -27,11 +27,7 @@
     Portfolio Marc Anton Pla
   </title>
 
-  <meta name="description" content="A Marc Anton le apasionan los videojuegos, la ciberseguridad y adquirir nuevos conocimientos. 
-  Su principal motivación es poder crear videojuegos, así como tener los conocimientos suficientes para poder ayudar a la gente.
-  Es muy atento y trabajador, gracias a esto puede terminar los trabajos sin mucha dificultad. 
-  Tiene una gran imaginación para poder crear historias y sacarle más partido a un videojuego. 
-  Marc Anton aprende constantemente para mantener al día sus conocimientos.">
+  <meta name="description" content="Portafolio Marc Anton Pla">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="Marc Anton Pla, Agile & Scrum teamwork, Performance optimization, Worker, Adaptable, Working in a team and on your own, Troubleshooting, C#, Python, LUA, PHP, SQL, R" />
   <link rel="stylesheet" href="index.css" />
@@ -45,13 +41,13 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link" data-i18n="project"> </a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link" data-i18n="work"> </a></li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <a href="#about" class="nav__link" data-i18n="about"> </a>
           </li>
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+            <a href="#contact" class="nav__link" data-i18n="contact"> </a>
           </li>
           <li class="lang-switcher">
             <button data-lang="en">EN</button>
@@ -68,7 +64,7 @@
           <span>Marc Anton Pla</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>Intern / Junior, Programer videogames AI, Tecnical Artist</p>
+        <p data-i18n="subtitle"> </p>
         <a href="#" class="btn btn--pink">Curriculum Vitae</a>
       </div>
     </div>
@@ -80,7 +76,7 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Projects</h2>
+        <h2 data-i18n="My Projects"> </h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
@@ -88,20 +84,20 @@
           <div class="work__box">
             <div class="work__text">
               <h3>RayBoy</h3>
-              <p>
-                Platformer 2D like Super Meat Boy
+              <p data-i18n="projectDescription_1">
+                
               </p>
               <ul class="work__list">
-                <li>Programmer AI</li>
-                <li>Creator of some VFX and shaders</li>
-                <li>Troubleshooting</li>
+                <li data-i18n="projectDescription_1_1"> </li>
+                <li data-i18n="projectDescription_1_2"> </li>
+                <li data-i18n="projectDescription_1_3"> </li>
               </ul>
 
               <div class="work__links">
                 <a href="http://rayboyy.itch.io/rayboy" target="_blank" class="link__text">
                   Itch.io <span>&rarr;</span>
                 </a>
-                <a href="http://rayboyy.itch.io/rayboy" title="View Source Code" target="_blank">
+                <a href="http://rayboyy.itch.io/rayboy" title="RayBoy" target="_blank">
                   <img src="./images/RayBoy.png" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -114,21 +110,21 @@
           <div class="work__box">
             <div class="work__text">
               <h3>Time S*cks</h3>
-              <p>
-                Hardcore Shooter
+              <p data-i18n="projectDescription_2">
+                
               </p>
               <ul class="work__list">
-                <li>Technical Artist</li>
-                <li>Creator of VFX and shaders</li>
-                <li>Lighting integration</li>
-                <li>Creator of several artistic environments</li>
+                <li data-i18n="projectDescription_2_1"> </li>
+                <li data-i18n="projectDescription_2_2"> </li>
+                <li data-i18n="projectDescription_2_3"> </li>
+                <li data-i18n="projectDescription_2_4"> </li>
               </ul>
 
               <div class="work__links">
-                <a href="http://opa-studio.itch.io/time-scks" class="link__text">
+                <a href="http://opa-studio.itch.io/time-scks" target="_blank" class="link__text">
                   Itch.io <span>&rarr;</span>
                 </a>
-                <a href="http://opa-studio.itch.io/time-scks">
+                <a href="http://opa-studio.itch.io/time-scks" title="TimeS*cks" target="_blank">
                   <img src="./images/TimeSucks.png" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -141,25 +137,49 @@
           <div class="work__box">
             <div class="work__text">
               <h3>Lost on Symmetry</h3>
-              <p>
-                3D platformer
+              <p data-i18n="projectDescription_3">
+                
               </p>
               <ul class="work__list">
-                <li>Programmer</li>
-                <li>Technical Artist</li>
+                <li data-i18n="projectDescription_3_1"> </li>
+                <li data-i18n="projectDescription_3_2"> </li>
               </ul>
 
               <div class="work__links">
-                <a href="https://theyuse.itch.io/lost-in-symmetry" class="link__text">
+                <a href="https://theyuse.itch.io/lost-in-symmetry" class="link__text" target="_blank">
                   Itch.io <span>&rarr;</span>
                 </a>
-                <a href="https://theyuse.itch.io/lost-in-symmetry">
+                <a href="https://theyuse.itch.io/lost-in-symmetry" title="Lost on Symmetry" target="_blank">
                   <img src="./images/LostonSymmetry.png" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
               <img src="./images/LostonSymmetryGame.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>“Echoes of the Past”</h3>
+              <p data-i18n="projectDescription_4">
+                
+              </p>
+              <ul class="work__list">
+                <li data-i18n="projectDescription_4_1"> </li>
+                <li data-i18n="projectDescription_4_2"> </li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://thessencial.itch.io/ecos-del-passat" class="link__text" target="_blank">
+                  Itch.io <span>&rarr;</span>
+                </a>
+                <a href="https://thessencial.itch.io/ecos-del-passat" title="Echoes of the Past”" target="_blank">
+                  <img src="./images/EchoesofthePast.png" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/EchoesofthePastGame.png" class="work__image" alt="Project 3" />
             </div>
           </div>
         </div>
@@ -170,7 +190,7 @@
 
     <section class="client" id="clients">
       <div class="row">
-        <h2>Work</h2>
+        <h2 data-i18n="work_"> </h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
           <img src="./images/Telnet.png" class="client__logo" alt="Company 1" />
@@ -184,20 +204,16 @@
 
     <section class="about" id="about">
       <div class="row">
-        <h2>About Me</h2>
+        <h2 data-i18n="about_"> </h2>
         <div class="about__content">
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Marc Anton is passionate about video games, cybersecurity and gaining new knowledge. 
-              His main motivation is to be able to create videogames as well as to have enough knowledge to be able to help people.
-              
-              He is very attentive and hardworking, thanks to this he can finish jobs without much difficulty. 
-              He has a great imagination to be able to create stories and get more out of a videogame. 
-              Marc Anton is constantly learning to keep his knowledge up to date.
-            </p>
+
+            <p data-i18n="about_Description_1"> </p>
+            <p data-i18n="about_Description_2"> </p>
+
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <!--<a href="#" class="btn">My Resume</a> -->
           </div>
 
           <div class="about__photo-container">
@@ -216,11 +232,11 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         
-        <p data-i18n="contact"></p>
+        <p data-i18n="contact_"></p>
         
         <!-- Replace the email with yours -->
-        <a href="https://mail.proton.me/u/0/mailto:ContactMapml@protonmail.com" class="btn">Send email through Protonmail </a>
-        <a href="#" onclick="copiarEmail(); return false;" class="btn"> Copy email</a>
+        <a href="mailto:ContactMapml@protonmail.com" target="_blank" class="btn" data-i18n="send_Email"> </a>
+        <a href="#" onclick="copiarEmail(); return false;" class="btn" data-i18n="copy_Email"> </a>
       </div>
     </div>
   </section>
@@ -232,12 +248,12 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://github.com/thessencial" title="Link to Github Profile">
+          <a href="https://github.com/thessencial" title="Link to Github Profile" target="_blank">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="www.linkedin.com/in/marc-anton-pla-martinez-de-lapuente">
+          <a href="https://www.linkedin.com/in/marc-anton-pla-martinez-de-lapuente" title="Link Linkedin" target="_blank">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>

@@ -1,0 +1,733 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>CV - Marc Anton Pla Martinez de Lapuente</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 1200px;
+		background-color: #e8f0f7;
+		border: 3px solid #1F3A5F;
+		padding: 25px;
+		border-radius: 12px;
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    color: #1F3A5F;
+    border-bottom: 2px solid #1F3A5F;
+    padding-bottom: 6px;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="303e2661-eb3c-80b1-9710-ea2b84f1f8d6" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1625838144804-300f3907c110?ixlib=rb-4.1.0&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><h1 class="page-title" dir="auto">CV - Marc Anton Pla Martinez de Lapuente</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><div id="303e2661-eb3c-802f-bb4d-d118d4dee5fc" class="column-list"><div style="display:contents" dir="auto"><div id="303e2661-eb3c-8038-a11a-f7066c571d55" style="width:37.5%" class="column"><div style="display:contents" dir="auto"><h3 id="303e2661-eb3c-8007-bf39-c0c2bfae3c4b" class="">INTERN / JUNIOR</h3></div></div></div><div style="display:contents" dir="auto"><div id="303e2661-eb3c-805c-8e22-deb9d6c54c48" style="width:45.83333333333333%" class="column"><div style="display:contents" dir="auto"><h3 id="303e2661-eb3c-8039-84fd-e12a42a0bfb4" class="">PROGRAMADOR DE IA EN VIDEOJUEGOS</h3></div></div></div><div style="display:contents" dir="auto"><div id="303e2661-eb3c-8051-a45a-f05f705111cb" style="width:16.666666666666718%" class="column"><div style="display:contents" dir="auto"><h3 id="303e2661-eb3c-801f-94a2-eec5ff055e3d" class="">ARTISTA TÉCNICO</h3></div></div></div></div></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-80e9-8904-dc81d0a880c8" class="">
+</p></div><div style="display:contents" dir="auto"><div id="303e2661-eb3c-8071-b80a-df8cc1754b9d" class="column-list"><div style="display:contents" dir="auto"><div id="303e2661-eb3c-8071-b687-fa04544a1374" style="width:37.5%" class="column"><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-80e3-b719-df128e92b031"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-8073-a075-ebd06174c99d" class="">SOBRE MÍ</h1></div></div></figure></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-807a-ac58-d401162941dc" class="">Programador especializado en inteligencia artificial para videojuegos y artista técnico.</p></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-801e-a8d5-cd743a9c07ce" class="">Combino sólidos conocimientos de programación con conocimientos artísticos y técnicos, lo que me permite desarrollar sistemas de juego inteligentes y optimizar el rendimiento visual. Mi experiencia incluye el diseño de comportamientos de IA, la integración de sombreadores, la creación de efectos visuales y la garantía de una interacción fluida entre el arte y la mecánica dentro del motor del juego.</p></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-808c-80c8-d971275bb89a" class="">Gran interés por la ciberseguridad como campo complementario.</p></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-8047-9ed0-f3e7965227d0" class="">
+</p></div><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-80b2-8bb9-f798659e6520"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-804e-9eee-c5ffc17375ca" class="">TECH STACK</h1></div></div></figure></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-808c-a598-d9551e411748" class="bulleted-list"><li style="list-style-type:disc">Unity Engine</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-8077-a9cb-d1efaf133034" class="bulleted-list"><li style="list-style-type:disc">Unreal Engine</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-8029-9e83-df3df6e057c7" class="bulleted-list"><li style="list-style-type:disc">MySQL</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-8003-a5cd-ea5f5b6b7a37" class="bulleted-list"><li style="list-style-type:disc">RStudio</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-805e-b64a-cd7061eb0f50" class="bulleted-list"><li style="list-style-type:disc">Docker</li></ul></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-8033-a2f8-fba813ac5da9" class="">
+</p></div><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-8035-8d37-cb8811861f02"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-80af-8c86-df11916ee929" class="">LENGUAJES PROGRAMACION</h1></div></div></figure></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-800f-84f2-f251d08ea606" class="bulleted-list"><li style="list-style-type:disc">C#</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80d7-9695-d0ae56c84743" class="bulleted-list"><li style="list-style-type:disc">Python</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-8062-8ad4-ccf1a23cdb7e" class="bulleted-list"><li style="list-style-type:disc">LUA</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-8048-b823-d0f899c7dbd1" class="bulleted-list"><li style="list-style-type:disc">PHP</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80e4-ab15-d399b2066584" class="bulleted-list"><li style="list-style-type:disc">SQL</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-8015-b2c8-c0afacf4a020" class="bulleted-list"><li style="list-style-type:disc">R</li></ul></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-80e5-8164-f59ada0d892c" class="">
+</p></div><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-80cd-82cc-ef1badd0df41"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-8053-a56d-d6e418aeb93a" class="">HABILIDADES</h1></div></div></figure></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-809d-8c53-de092176cd9c" class="bulleted-list"><li style="list-style-type:disc">Trabajo en equipo ágil y Scrum</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80a8-b864-f05442a0933a" class="bulleted-list"><li style="list-style-type:disc">Optimización del rendimiento</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80ed-84ba-c4fadfa7c2d2" class="bulleted-list"><li style="list-style-type:disc">Compromiso y responsabilidad</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-8020-b19f-e1c05163f9b5" class="bulleted-list"><li style="list-style-type:disc">Adaptable</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80fd-b396-dcf392a0b806" class="bulleted-list"><li style="list-style-type:disc">Capacidad para trabajar en equipo y de forma independiente</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-807e-9b49-e10c6de3eaf5" class="bulleted-list"><li style="list-style-type:disc">Resolución de problemas</li></ul></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-8059-a373-c6adf1ac9991" class="">
+</p></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-8075-8fcc-ee80a3bd2d67" class="">
+</p></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-8022-a185-e72140cf3571" class="">
+</p></div></div></div><div style="display:contents" dir="auto"><div id="303e2661-eb3c-80e4-912f-fb9b5f1ecbd1" style="width:41.66666666666667%" class="column"><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-8020-834a-fbc45ed851ec"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-8053-895e-c86b6147d7d3" class="">EDUCACIÓN</h1></div></div></figure></div><div style="display:contents" dir="auto"><h3 id="303e2661-eb3c-805f-aa8d-e435e46674b9" class=""><strong>2022 - 2026</strong></h3></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-801b-8e9c-e84df684ccb4" class="bulleted-list"><li style="list-style-type:disc">Grado en Diseño y Producción de Videojuegos<div style="display:contents" dir="auto"><p id="303e2661-eb3c-80f6-8579-ce89a4bf4445" class="">TecnoCampus (Universitat Pompeu Fabra)</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="303e2661-eb3c-804b-8075-c298880d0a1c" class=""><strong>2019 - 2021</strong></h3></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-8083-91a9-c7bcec5b1624" class="bulleted-list"><li style="list-style-type:disc">ASIR(Administración de Sistemas Informáticos en Red, especialización en Ciberseguridad).<div style="display:contents" dir="auto"><p id="303e2661-eb3c-8096-ab47-e1768acc2975" class="">Instituto F. Vidal i Barraquer</p></div></li></ul></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-8093-a5ae-d9547a326cfb" class="">
+</p></div><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-80f1-a255-f1e5ebae8c9b"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-8029-bfa7-e8c6c932ffbe" class="">CERTIFICADOS</h1></div></div></figure></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80bd-bbae-cffeaf6c19e3" class="bulleted-list"><li style="list-style-type:disc">Certificado de CISCO: CCNA Routing and Switching: Introducción a redes</li></ul></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-80e2-ae6a-c8e6c64ab89a" class="">
+</p></div><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-8087-8ec9-e180c99e6f51"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-80dc-9bcc-ea0c4209993a" class="">CONTACT</h1></div></div></figure></div><div style="display:contents" dir="auto"><h3 id="303e2661-eb3c-80e4-85cc-c42a76728660" class=""><mark class="highlight-blue"><mark class="highlight-blue_background"><strong> </strong></mark></mark><mark class="highlight-blue"><mark class="highlight-blue_background"><strong><a href="http://www.linkedin.com/in/marc-anton-pla-martinez-de-lapuente">LinkedIn</a></strong></mark></mark><mark class="highlight-blue"><mark class="highlight-blue_background"><strong> </strong></mark></mark></h3></div><div style="display:contents" dir="auto"><h3 id="303e2661-eb3c-8051-ac21-f86fbeb87f7d" class="">ContactMapml@protonmail.com</h3></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-80bd-8ce0-da7557635888" class="">
+</p></div><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-80c8-ab7f-da9a50f76b79"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-8099-8ea7-f0dbce379395" class="">PORTFOLIO / PROYECTOS</h1></div></div></figure></div><div style="display:contents" dir="auto"><h3 id="303e2661-eb3c-802b-8388-e0e802cf07b0" class=""><mark class="highlight-blue"><a href="https://thessencial.github.io/github-portafolio/">Portafolio</a></mark></h3></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-80fc-ac8e-e4e8223fb896" class="">
+</p></div><div style="display:contents" dir="ltr"><figure class="block-color-blue_background callout" style="white-space:pre-wrap;display:flex" id="303e2661-eb3c-80a5-829e-d13eca4ffba0"><div style="width:100%"><div style="display:contents" dir="auto"><h1 id="303e2661-eb3c-8040-bd1b-e51803e402f4" class="">EXPERIENCIA LABORAL</h1></div></div></figure></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-8081-8cc3-eb47f0a81cb6" class=""><strong>Administrador de sistemas adjunto</strong></p></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-8037-8bc0-ec2f7f422634" class="">Telnet (Tarragona) — 2020 - 2021</p></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80ec-a045-ed4aa4396300" class="bulleted-list"><li style="list-style-type:disc">Nuevos conocimientos y experiencia en MikroTik con sistemas de red</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80cd-9113-c600bd82a906" class="bulleted-list"><li style="list-style-type:disc">Conocimientos de Docker</li></ul></div><div style="display:contents" dir="auto"><hr id="303e2661-eb3c-8043-9d73-f137915abd36"/></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-800f-9e86-e02a87dec162" class=""><strong>Camarero</strong></p></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-807c-89da-e7a0c44211e2" class="">Restaurante Salauris — 2017 - 2019 , Cal Gantxo — 2020</p></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80d2-9d27-edca7d1489b6" class="bulleted-list"><li style="list-style-type:disc">Experiencia en la dirección y organización de salones y terrazas</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80c2-828d-daf95786a13d" class="bulleted-list"><li style="list-style-type:disc">Experiencia en el trabajo en equipo</li></ul></div><div style="display:contents" dir="auto"><ul id="303e2661-eb3c-80bf-8f98-d0891384ba86" class="bulleted-list"><li style="list-style-type:disc">Experiencia trabajando bajo presión</li></ul></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-800a-a620-dee22dfe559e" class="">
+</p></div></div></div><div style="display:contents" dir="auto"><div id="303e2661-eb3c-8035-b021-fc0c7e3e2baf" style="width:20.833333333333353%" class="column"><div style="display:contents" dir="ltr"><figure id="303e2661-eb3c-8039-8232-e00591e9c026" class="image"><a href="FotoTrabajoCline.jpeg"><img style="width:384px" src="FotoTrabajoCline.jpeg"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><p id="303e2661-eb3c-80d2-ba7f-caa3564c82ac" class="">
+</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

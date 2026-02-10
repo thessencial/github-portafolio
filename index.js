@@ -203,6 +203,13 @@ function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
     el.textContent = translations[lang][key];
+    
+    // Cambiar el enlace del CV según el idioma
+    const cvButton = document.getElementById("cv-link");
+    if (cvButton) {
+      cvButton.href = lang === "es" ? "cv_Spanish.html" : "cv_English.html";
+    }
+
   });
 
   // Guardar preferencia

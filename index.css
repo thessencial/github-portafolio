@@ -512,7 +512,12 @@ body:not(.user-is-tabbing) a:focus {
 .client__logos {
     display: flex;
     justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
+    /*filter: invert(100%) grayscale(100%) opacity(.8);*/
+}
+
+.client__logos img {
+    background: rgba(255, 255, 255, 0.5);
+    height: 80px;
 }
 
 .client__logo {

@@ -129,9 +129,11 @@ const translations = {
     about_:
       "About Me",
     about_Description_1:
-      "Marc Anton is passionate about video games, cybersecurity and gaining new knowledge. His main motivation is to be able to create videogames as well as to have enough knowledge to be able to help people.",
+      "Video Game AI Programmer and Technical Artist with a strong foundation in programming, technical art, and visual optimization.",
     about_Description_2:
-      "He is very attentive and hardworking, thanks to this he can finish jobs without much difficulty. He has a great imagination to be able to create stories and get more out of a videogame. Marc Anton is constantly learning to keep his knowledge up to date.",
+      "Experienced in designing AI behaviors, integrating shaders, creating VFX, and developing systems that connect art and gameplay smoothly within the game engine. Passionate about video games, cybersecurity, and continuous learning.",
+    about_Description_3:
+      "Known for being responsible, autonomous, and attentive, with strong communication skills and the ability to work effectively in a team. Enjoys creating interactive experiences, solving problems, and contributing creative ideas that enhance the quality and potential of a project.",
     contact_:
       "I am always open to learning opportunities, creative challenges, and conversations that help build better games and digital experiences. The quickest way to contact me is via email, and I will do my best to get back to you as soon as possible.",
     send_Email:
@@ -187,9 +189,11 @@ const translations = {
     about_:
       "Sobre Mi",
     about_Description_1:
-      "Marc Anton le apasionan los videojuegos, la ciberseguridad y adquirir nuevos conocimientos. Su principal motivación es poder crear videojuegos, así como tener los conocimientos suficientes para poder ayudar a la gente.",
+      "Programador especializado en inteligencia artificial para videojuegos y Technical Artist, con una sólida base en programación, arte técnico y optimización visual.",
     about_Description_2:
-      "Es muy atento y trabajador, gracias a esto puede terminar los trabajos sin mucha dificultad. Tiene una gran imaginación para poder crear historias y sacarle más partido a un videojuego. Marc Anton aprende constantemente para mantener al día sus conocimientos.",
+      "Experiencia en el diseño de comportamientos de IA, integración de shaders, creación de VFX y desarrollo de sistemas que conectan de forma fluida la parte artística con la mecánica dentro del motor del juego. Me apasionan los videojuegos, la ciberseguridad y el aprendizaje continuo.",
+    about_Description_3:
+      "Soy una persona responsable, autónoma y atenta, con facilidad para comunicarme y trabajar en equipo. Disfruto creando experiencias interactivas, resolviendo problemas y aportando ideas que mejoren la calidad y el potencial creativo de un proyecto.",
     contact_:
       "Siempre estoy abierto a oportunidades de aprendizaje, retos creativos y conversaciones que ayuden a crear mejores juegos y experiencias digitales. La forma más rápida de ponerse en contacto conmigo es por correo electrónico, y haré todo lo posible por responderle lo antes posible.",
     send_Email:

@@ -99,7 +99,7 @@ const translations = {
     projectDescription_1_1:
       "Programmer AI",
     projectDescription_1_2:
-      "Cretor of some VFX and shaders",
+      "Creator of some VFX and shaders",
     projectDescription_1_3:
       "Troubleshooting",
     projectDescription_2:
@@ -159,13 +159,13 @@ const translations = {
     projectDescription_1_1:
       "Programar IA",
     projectDescription_1_2:
-      "Creadord de algunas VFX y shaders",
+      "Creador de algunos VFX y shaders",
     projectDescription_1_3:
       "Solucionar problemas",
     projectDescription_2:
       "Hardcore Shooter",
     projectDescription_2_1:
-      "Artiscta Técnico",
+      "Artista Técnico",
     projectDescription_2_2:
       "Creador de VFX y shaders",
     projectDescription_2_3:
@@ -177,7 +177,7 @@ const translations = {
     projectDescription_3_1:
       "Programador",
     projectDescription_3_2:
-      "Artista Tecnico",
+      "Artista Técnico",
     projectDescription_4:
       "Aventura narrativa en 2D ambientada en la Cataluña franquista tras la Guerra Civil",
     projectDescription_4_1:
@@ -197,9 +197,9 @@ const translations = {
     contact_:
       "Siempre estoy abierto a oportunidades de aprendizaje, retos creativos y conversaciones que ayuden a crear mejores juegos y experiencias digitales. La forma más rápida de ponerse en contacto conmigo es por correo electrónico, y haré todo lo posible por responderle lo antes posible.",
     send_Email:
-      "Envia email por Protonmail",
+      "Envía email por Protonmail",
     copy_Email:
-      "Copia email"
+      "Copiar email"
   }
 };
 

@@ -93,7 +93,7 @@ const translations = {
     subtitle:
       "Intern / Junior, Programer AI Videogames, Tecnical Artist",
     projects:
-      "My Projects",
+      "Projects",
     projectDescription_1:
       "Platformer 2D like Super Meat Boy",
     projectDescription_1_1:
@@ -124,6 +124,14 @@ const translations = {
       "Programmer",
     projectDescription_4_2:
       "Technical Artist",
+    projectDescription_5:
+      "Graphic adventure RPG for mobile devices",
+    projectDescription_5_1:
+      "Programmer",
+    projectDescription_5_2:
+      "Tester",
+    projectDescription_5_3:
+      "Debugger",
     work_:
       "Work",
     about_:
@@ -153,7 +161,7 @@ const translations = {
     subtitle:
       "Becario/junior, Programador IA en Videojuegos, Artista Técnico",
     projects:
-      "Mis proyectos",
+      "Proyectos",
     projectDescription_1:
       "Plataformero 2D como Super Meat Boy",
     projectDescription_1_1:
@@ -184,6 +192,14 @@ const translations = {
       "Programador",
     projectDescription_4_2:
       "Artista Tecnico",
+    projectDescription_5:
+      "Aventura gráfica RPG para dispositivos móviles",
+    projectDescription_5_1:
+      "Programador",
+    projectDescription_5_2:
+      "Tester",
+    projectDescription_5_3:
+      "Debugger",
     work_:
       "Trabajo",
     about_:
